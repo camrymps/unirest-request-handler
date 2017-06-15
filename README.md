@@ -15,7 +15,7 @@ Implementation is simple:
 
 ```javascript       
 unirest
-	.get('https://google.com/')
+    .get('https://google.com/')
     .handle()
     .then(function(html) {
     	// do stuff
