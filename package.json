@@ -1,0 +1,25 @@
+{
+    "name": "unirest-request-handler",
+    "version": "0.0.1",
+    "description": "A super tiny protototype method for elegantly handling requests using the Unirest Node library.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --reporter spec --timeout 5000"
+    },
+    "keywords": [
+        "unirest",
+        "handler"
+    ],
+    "author": "Michael Scott <camrymps@gmail.com>",
+    "license": "MIT",
+    "engines": {
+        "node": ">=4.2.4"
+    },
+    "dependencies": {
+        "chai": "^4.0.2",
+        "chai-as-promised": "^6.0.0",
+        "mocha": "^3.4.2",
+        "promise": "^7.1.1",
+        "unirest": "^0.5.1"
+    }
+}
