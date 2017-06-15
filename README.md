@@ -28,5 +28,5 @@ unirest
 ## License
 <a name='license'></a>
 
-Copyright (c) 2016 Michael Scott.
+Copyright (c) 2017 Michael Scott.
 Licensed under the MIT license.
