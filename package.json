@@ -1,7 +1,7 @@
 {
     "name": "unirest-request-handler",
     "version": "0.0.1",
-    "description": "A super tiny protototype method for elegantly handling requests using the Unirest Node library.",
+    "description": "A super tiny method for elegantly handling requests using the Unirest Node library.",
     "main": "index.js",
     "scripts": {
         "test": "mocha --reporter spec --timeout 5000"
