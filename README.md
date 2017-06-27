@@ -1,6 +1,6 @@
 # Unirest Request Handler
 
-A super tiny protototype method for elegantly handling requests using the [Unirest](http://unirest.io/nodejs.html) library.
+A super tiny method for elegantly handling requests using the [Unirest](http://unirest.io/nodejs.html) library.
 
 
 ## Installation
@@ -13,10 +13,12 @@ npm install unirest-request-handler
 
 Implementation is simple:
 
-```javascript       
-unirest
-    .get('https://google.com/')
-    .handle()
+```javascript  
+const unirest = require('unirest');
+const requestHandler = require('unirest-request-handler');
+
+requestHandler
+    .handle(unirest.get('https://google.com/'))
     .then(function(html) {
     	// do stuff
     })
