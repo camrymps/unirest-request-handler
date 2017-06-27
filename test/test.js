@@ -20,13 +20,5 @@ describe('#handle()', function() {
             .catch(function(rejected) {
                 done();
             })
-            /*unirest
-                .get('https://google.com/random/')
-                .handle()
-                .then(function(resolved) {
-                    done('Request was not succesfully rejected.');
-                }, function(rejected) {
-                    done();
-                });*/
     });
 });
